@@ -458,6 +458,59 @@ ffddccffffff686666ff1fffffffff..
 ..ffffcccccff......ffffcccccff..
 ...fffffffff........fffffffff...
 `];
+            case "enemy animated":
+            case "anim4":return [img`
+. . . c c c c . . . . . . . . . 
+. . c 2 2 2 c . . . c c c c . . 
+. c 2 2 2 c . . . . c 2 2 c c . 
+c 2 2 2 2 c . . . . c 2 2 2 c . 
+c c c c 2 c c c c f c 2 2 2 c c 
+. . c c 2 1 1 1 1 f c 2 2 2 2 c 
+. c c 1 1 1 1 1 1 d 2 2 c 2 2 c 
+. c d 1 1 1 1 1 1 2 2 c c c c c 
+. c 1 1 2 2 2 1 d d d f . . . . 
+. c 1 2 2 1 2 2 d d d f . . . . 
+. c 1 2 f f 2 2 d d d f . . . . 
+. f d 2 f f e e d d d f . . . . 
+. f f d e e e d d d f f . . . . 
+. . f f d d d d d f f . . . . . 
+. . . f f f f f f f . . . . . . 
+. . . . . . . . . . . . . . . . 
+`, img`
+. . . . . . . . . . . . . . . . 
+. . c c c c . . . . . . . . . . 
+. c 2 2 c c . . . . . . . . . . 
+c 2 2 c c c c c c f . c c c . . 
+c 2 c c 1 1 1 1 1 f f c 2 2 c . 
+c 2 2 1 1 1 1 1 1 d f c c 2 c . 
+2 2 d 1 2 2 2 1 1 2 2 c c 2 2 c 
+c c 1 2 2 1 2 2 d c 2 2 2 2 2 c 
+. c 1 2 f f 2 2 d d c 2 2 2 2 c 
+. c 1 2 f f 2 2 d d c c 2 2 2 c 
+. f d 2 f f e e d d d c c 2 2 c 
+. f f d e e e d d d f f . c c c 
+. . f f d d d d d f f . . . . . 
+. . . f f f f f f f . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`, img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . c c c c c c c f . . . . . . 
+c c 2 2 c 1 1 1 1 f f c c . . . 
+c 2 c 1 1 1 1 1 1 2 2 2 c c . . 
+c c d 1 1 1 1 1 1 c 2 2 2 2 c c 
+c c 1 1 2 2 2 1 d d c 2 2 2 2 c 
+c c 1 2 2 1 2 2 d d c c 2 2 2 c 
+. c 1 2 f f 2 2 d d d c 2 2 2 c 
+. f d 2 f f e e d d d c c c c c 
+. f f d e e e d d d f f . . . . 
+. . f f d d d d d f f . . . . . 
+. . . f f f f f f f . . . . . . 
+`];
             case "truck3 animated":
             case "anim3":return [img`
 ................................
@@ -558,59 +611,6 @@ ffddccffffff44e444454ffffff44ff.
 .ffffcddbfbbff....ffffccfdddcff.
 ..ffffcccccff......ffffcccccff..
 ...fffffffff........fffffffff...
-`];
-            case "enemy animated":
-            case "anim4":return [img`
-. . . c c c c . . . . . . . . . 
-. . c 2 2 2 c . . . c c c c . . 
-. c 2 2 2 c . . . . c 2 2 c c . 
-c 2 2 2 2 c . . . . c 2 2 2 c . 
-c c c c 2 c c c c f c 2 2 2 c c 
-. . c c 2 1 1 1 1 f c 2 2 2 2 c 
-. c c 1 1 1 1 1 1 d 2 2 c 2 2 c 
-. c d 1 1 1 1 1 1 2 2 c c c c c 
-. c 1 1 2 2 2 1 d d d f . . . . 
-. c 1 2 2 1 2 2 d d d f . . . . 
-. c 1 2 f f 2 2 d d d f . . . . 
-. f d 2 f f e e d d d f . . . . 
-. f f d e e e d d d f f . . . . 
-. . f f d d d d d f f . . . . . 
-. . . f f f f f f f . . . . . . 
-. . . . . . . . . . . . . . . . 
-`, img`
-. . . . . . . . . . . . . . . . 
-. . c c c c . . . . . . . . . . 
-. c 2 2 c c . . . . . . . . . . 
-c 2 2 c c c c c c f . c c c . . 
-c 2 c c 1 1 1 1 1 f f c 2 2 c . 
-c 2 2 1 1 1 1 1 1 d f c c 2 c . 
-2 2 d 1 2 2 2 1 1 2 2 c c 2 2 c 
-c c 1 2 2 1 2 2 d c 2 2 2 2 2 c 
-. c 1 2 f f 2 2 d d c 2 2 2 2 c 
-. c 1 2 f f 2 2 d d c c 2 2 2 c 
-. f d 2 f f e e d d d c c 2 2 c 
-. f f d e e e d d d f f . c c c 
-. . f f d d d d d f f . . . . . 
-. . . f f f f f f f . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-`, img`
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . c c c c c c c f . . . . . . 
-c c 2 2 c 1 1 1 1 f f c c . . . 
-c 2 c 1 1 1 1 1 1 2 2 2 c c . . 
-c c d 1 1 1 1 1 1 c 2 2 2 2 c c 
-c c 1 1 2 2 2 1 d d c 2 2 2 2 c 
-c c 1 2 2 1 2 2 d d c c 2 2 2 c 
-. c 1 2 f f 2 2 d d d c 2 2 2 c 
-. f d 2 f f e e d d d c c c c c 
-. f f d e e e d d d f f . . . . 
-. . f f d d d d d f f . . . . . 
-. . . f f f f f f f . . . . . . 
 `];
         }
         return null;
