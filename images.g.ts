@@ -73,24 +73,40 @@ ffddccffffff44e444454ffffff44ff.
 ..ffffcccccff......ffffcccccff..
 ...fffffffff........fffffffff...
 `;
-            case "image4":
-            case "enemy":return img`
-. . . c c c c . . . . . . . . . 
-. . c 2 2 2 c . . . c c c c . . 
-. c 2 2 2 c . . . . c 2 2 c c . 
-c 2 2 2 2 c . . . . c 2 2 2 c . 
-c c c c 2 c c c c f c 2 2 2 c c 
-. . c c 2 1 1 1 1 f c 2 2 2 2 c 
-. c c 1 1 1 1 1 1 d 2 2 c 2 2 c 
-. c d 1 1 1 1 1 1 2 2 c c c c c 
-. c 1 1 2 2 2 1 d d d f . . . . 
-. c 1 2 2 1 2 2 d d d f . . . . 
-. c 1 2 f f 2 2 d d d f . . . . 
-. f d 2 f f e e d d d f . . . . 
-. f f d e e e d d d f f . . . . 
-. . f f d d d d d f f . . . . . 
-. . . f f f f f f f . . . . . . 
-. . . . . . . . . . . . . . . . 
+            case "image3":
+            case "truck1":return img`
+................................
+................................
+................................
+................................
+................................
+................................
+..........fffffffffff...........
+.........ff6666666666ff.........
+.........f8866666666666f........
+.........f8b866666666666f.......
+.........f8bb867777777777f......
+.........f8bb867bbbbb88777fff...
+..ffffffff68b867bbbbbb887766ff..
+.f66666666668867bbbbbbb887666ff.
+.f7ffffffff66867bbbbbbb8876666ff
+.f77ffffffff6667888888888776556f
+.f77767777777667777777777777455f
+.f77767777777787777777777777744f
+.f77767777777787777777777777777f
+ffc7767777777787777777777777777f
+fddc766ffff66686666666ffff6666ff
+ffddccffffff668666666ffffff66ff.
+.ffddffffffffccccccccffffffffff.
+..ffffccccbbfdddddddffbbccccff..
+.ffffcffffcccffffffffcccffffcff.
+.fffcfcccffbbf....fffbbffcccfcf.
+.fffccbbbffccf....fffccffbbbccf.
+.fffcdccfffbbf....fffbbfffccdcf.
+.fffcdcccbfccf....fffccfbcccdcf.
+.ffffcdddfccff....ffffccfdddcff.
+..ffffcccccff......ffffcccccff..
+...fffffffff........fffffffff...
 `;
             case "image1":
             case "background":return img`
@@ -133,7 +149,7 @@ c c c c 2 c c c c f c 2 2 2 c c
 6666666666666666666b6666666666666666bbbb666666b66666666666666666b6666666666666666666666666666666666b6666666666666666bbbb666666b66666666666666666b666666666666666
 666666666666666666b66666666b66666666bbb666666b666666666666666666b666666666666666666666666666666666b66666666b66666666bbb666666b666666666666666666b666666666666666
 666666666666666666b66666666b66666666bbb666666b666666666b66666666b666666666666666666666666666666666b66666666b66666666bbb666666b666666666b66666666b666666666666666
-66666666666666666b666666666b66666666bb6666666b666666666b66666666b66666666666666666666666666666666b666666666b66666666bb6666666b666666666b66666666b666666666666666
+66666666666666666b666666666b36666666bb6666666b666666666b66666666b66666666666666666666666666666666b666666666b66666666bb6666666b666666666b66666666b666666666666666
 66666666666666666b666666666b66666666bb6666666b66666b666b66666666b66666666666666666666666666666666b666666666b66666666bb6666666b66666b666b66666666b666666666666666
 66666666666666666b666666666b6666666bb66666666b66666bb66b66666666b66666666666666666666666666666666b666666666b6666666bb66666666b66666bb66b66666666b666666666666666
 6666666666666666b6666666666b6666666bb66666666b666666b66b66666666b6666666666666666666666666666666b6666666666b6666666bb66666666b666666b66b66666666b666666666666666
@@ -215,40 +231,24 @@ cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
 cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
 cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
 `;
-            case "image3":
-            case "truck1":return img`
-................................
-................................
-................................
-................................
-................................
-................................
-..........fffffffffff...........
-.........ff6666666666ff.........
-.........f8866666666666f........
-.........f8b866666666666f.......
-.........f8bb867777777777f......
-.........f8bb867bbbbb88777fff...
-..ffffffff68b867bbbbbb887766ff..
-.f66666666668867bbbbbbb887666ff.
-.f7ffffffff66867bbbbbbb8876666ff
-.f77ffffffff6667888888888776556f
-.f77767777777667777777777777455f
-.f77767777777787777777777777744f
-.f77767777777787777777777777777f
-ffc7767777777787777777777777777f
-fddc766ffff66686666666ffff6666ff
-ffddccffffff668666666ffffff66ff.
-.ffddffffffffccccccccffffffffff.
-..ffffccccbbfdddddddffbbccccff..
-.ffffcffffcccffffffffcccffffcff.
-.fffcfcccffbbf....fffbbffcccfcf.
-.fffccbbbffccf....fffccffbbbccf.
-.fffcdccfffbbf....fffbbfffccdcf.
-.fffcdcccbfccf....fffccfbcccdcf.
-.ffffcdddfccff....ffffccfdddcff.
-..ffffcccccff......ffffcccccff..
-...fffffffff........fffffffff...
+            case "image4":
+            case "enemy":return img`
+. . . c c c c . . . . . . . . . 
+. . c 2 2 2 c . . . c c c c . . 
+. c 2 2 2 c . . . . c 2 2 c c . 
+c 2 2 2 2 c . . . . c 2 2 2 c . 
+c c c c 2 c c c c f c 2 2 2 c c 
+. . c c 2 1 1 1 1 f c 2 2 2 2 c 
+. c c 1 1 1 1 1 1 d 2 2 c 2 2 c 
+. c d 1 1 1 1 1 1 2 2 c c c c c 
+. c 1 1 2 2 2 1 d d d f . . . . 
+. c 1 2 2 1 2 2 d d d f . . . . 
+. c 1 2 f f 2 2 d d d f . . . . 
+. f d 2 f f e e d d d f . . . . 
+. f f d e e e d d d f f . . . . 
+. . f f d d d d d f f . . . . . 
+. . . f f f f f f f . . . . . . 
+. . . . . . . . . . . . . . . . 
 `;
         }
         return null;
@@ -458,59 +458,6 @@ ffddccffffff686666ff1fffffffff..
 ..ffffcccccff......ffffcccccff..
 ...fffffffff........fffffffff...
 `];
-            case "enemy animated":
-            case "anim4":return [img`
-. . . c c c c . . . . . . . . . 
-. . c 2 2 2 c . . . c c c c . . 
-. c 2 2 2 c . . . . c 2 2 c c . 
-c 2 2 2 2 c . . . . c 2 2 2 c . 
-c c c c 2 c c c c f c 2 2 2 c c 
-. . c c 2 1 1 1 1 f c 2 2 2 2 c 
-. c c 1 1 1 1 1 1 d 2 2 c 2 2 c 
-. c d 1 1 1 1 1 1 2 2 c c c c c 
-. c 1 1 2 2 2 1 d d d f . . . . 
-. c 1 2 2 1 2 2 d d d f . . . . 
-. c 1 2 f f 2 2 d d d f . . . . 
-. f d 2 f f e e d d d f . . . . 
-. f f d e e e d d d f f . . . . 
-. . f f d d d d d f f . . . . . 
-. . . f f f f f f f . . . . . . 
-. . . . . . . . . . . . . . . . 
-`, img`
-. . . . . . . . . . . . . . . . 
-. . c c c c . . . . . . . . . . 
-. c 2 2 c c . . . . . . . . . . 
-c 2 2 c c c c c c f . c c c . . 
-c 2 c c 1 1 1 1 1 f f c 2 2 c . 
-c 2 2 1 1 1 1 1 1 d f c c 2 c . 
-2 2 d 1 2 2 2 1 1 2 2 c c 2 2 c 
-c c 1 2 2 1 2 2 d c 2 2 2 2 2 c 
-. c 1 2 f f 2 2 d d c 2 2 2 2 c 
-. c 1 2 f f 2 2 d d c c 2 2 2 c 
-. f d 2 f f e e d d d c c 2 2 c 
-. f f d e e e d d d f f . c c c 
-. . f f d d d d d f f . . . . . 
-. . . f f f f f f f . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-`, img`
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . c c c c c c c f . . . . . . 
-c c 2 2 c 1 1 1 1 f f c c . . . 
-c 2 c 1 1 1 1 1 1 2 2 2 c c . . 
-c c d 1 1 1 1 1 1 c 2 2 2 2 c c 
-c c 1 1 2 2 2 1 d d c 2 2 2 2 c 
-c c 1 2 2 1 2 2 d d c c 2 2 2 c 
-. c 1 2 f f 2 2 d d d c 2 2 2 c 
-. f d 2 f f e e d d d c c c c c 
-. f f d e e e d d d f f . . . . 
-. . f f d d d d d f f . . . . . 
-. . . f f f f f f f . . . . . . 
-`];
             case "truck3 animated":
             case "anim3":return [img`
 ................................
@@ -611,6 +558,59 @@ ffddccffffff44e444454ffffff44ff.
 .ffffcddbfbbff....ffffccfdddcff.
 ..ffffcccccff......ffffcccccff..
 ...fffffffff........fffffffff...
+`];
+            case "enemy animated":
+            case "anim4":return [img`
+. . . c c c c . . . . . . . . . 
+. . c 2 2 2 c . . . c c c c . . 
+. c 2 2 2 c . . . . c 2 2 c c . 
+c 2 2 2 2 c . . . . c 2 2 2 c . 
+c c c c 2 c c c c f c 2 2 2 c c 
+. . c c 2 1 1 1 1 f c 2 2 2 2 c 
+. c c 1 1 1 1 1 1 d 2 2 c 2 2 c 
+. c d 1 1 1 1 1 1 2 2 c c c c c 
+. c 1 1 2 2 2 1 d d d f . . . . 
+. c 1 2 2 1 2 2 d d d f . . . . 
+. c 1 2 f f 2 2 d d d f . . . . 
+. f d 2 f f e e d d d f . . . . 
+. f f d e e e d d d f f . . . . 
+. . f f d d d d d f f . . . . . 
+. . . f f f f f f f . . . . . . 
+. . . . . . . . . . . . . . . . 
+`, img`
+. . . . . . . . . . . . . . . . 
+. . c c c c . . . . . . . . . . 
+. c 2 2 c c . . . . . . . . . . 
+c 2 2 c c c c c c f . c c c . . 
+c 2 c c 1 1 1 1 1 f f c 2 2 c . 
+c 2 2 1 1 1 1 1 1 d f c c 2 c . 
+2 2 d 1 2 2 2 1 1 2 2 c c 2 2 c 
+c c 1 2 2 1 2 2 d c 2 2 2 2 2 c 
+. c 1 2 f f 2 2 d d c 2 2 2 2 c 
+. c 1 2 f f 2 2 d d c c 2 2 2 c 
+. f d 2 f f e e d d d c c 2 2 c 
+. f f d e e e d d d f f . c c c 
+. . f f d d d d d f f . . . . . 
+. . . f f f f f f f . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`, img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . c c c c c c c f . . . . . . 
+c c 2 2 c 1 1 1 1 f f c c . . . 
+c 2 c 1 1 1 1 1 1 2 2 2 c c . . 
+c c d 1 1 1 1 1 1 c 2 2 2 2 c c 
+c c 1 1 2 2 2 1 d d c 2 2 2 2 c 
+c c 1 2 2 1 2 2 d d c c 2 2 2 c 
+. c 1 2 f f 2 2 d d d c 2 2 2 c 
+. f d 2 f f e e d d d c c c c c 
+. f f d e e e d d d f f . . . . 
+. . f f d d d d d f f . . . . . 
+. . . f f f f f f f . . . . . . 
 `];
         }
         return null;
