@@ -1,9 +1,7 @@
 controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
+    let stop = 0
     left = stop
     master_car.vy = -200
-})
-controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
-    left = stop
 })
 scene.onOverlapTile(SpriteKind.Player, assets.tile`spikes`, function (sprite, location) {
     game.over(false)
@@ -27,14 +25,30 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`acid`, function (sprite, loca
 })
 let add_them = 0
 let projectile = false
-let _true = 0
-let stop = 0
 let left = 0
 let master_car: Sprite = null
+let _true = 0
+let coin = 0
+scene.setBackgroundColor(8)
+if (-30 > coin) {
+	
+} else {
+	
+}
+pauseUntil(() => true)
+let start = 0
+_true += 1
+console.log("100")
+console.logValue("-20", -40)
 info.changeScoreBy(0)
 info.changeLifeBy(8)
-let map = randint(0, 10)
-tiles.setTilemap(tilemap`level1`)
+coin = randint(0, 10)
+let map = 0
+tiles.setTilemap(tilemap`level0`)
+tiles.setTilemap(tilemap`level2`)
+tiles.setTilemap(tilemap`level4`)
+tiles.setTilemap(tilemap`level5`)
+tiles.setTilemap(tilemap`level0`)
 scene.setBackgroundImage(assets.image`background`)
 master_car = sprites.create(assets.image`truck3`, SpriteKind.Player)
 master_car.ay = 500
@@ -47,7 +61,18 @@ assets.animation`truck3 animated`,
 true
 )
 game.setGameOverMessage(false, "u lose")
+game.setGameOverMessage(true, "u god")
 game.showLongText("there still bugs in joy mate", DialogLayout.Full)
+let text_list = [
+"wellcome to the" + "map",
+String.fromCharCode(100),
+parseFloat("134"),
+"this".includes("cars")
+]
+scroller.scrollBackgroundWithCamera(scroller.CameraScrollMode.BothDirections)
+scroller.scrollBackgroundWithSpeed(-70, -50)
+scroller.setCameraScrollingMultipliers(2, 4)
+controller.moveSprite(master_car, 100, 100)
 game.onUpdate(function () {
     if (true) {
         projectile = controller.player2.isPressed(ControllerButton.A)
