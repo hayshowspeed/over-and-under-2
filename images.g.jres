@@ -24,6 +24,11 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "truck2"
     },
+    "image5": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADMzAwAAAAAAM4gFAAAAAABTVQUAAAAAAFMlBQAAAAAAM1UFAAAAAABTJQUAAAAAAFNVBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "4"
+    },
     "anim1": {
         "namespace": "myAnimations",
         "id": "anim1",
